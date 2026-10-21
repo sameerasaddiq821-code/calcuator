@@ -1,0 +1,6 @@
+{
+  "name": "Student Study Performance Calculator",
+  "description": "Interactive Android mobile application to evaluate university student academic performance with weighted scoring, Material Design 3 UI, and offline calculations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

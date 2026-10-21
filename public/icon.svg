@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="50%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#grad)" />
+  <g filter="url(#shadow)" fill="none" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Graduation Cap -->
+    <path d="M256 120 L416 200 L256 280 L96 200 Z" fill="#FFFFFF" fill-opacity="0.2"/>
+    <path d="M156 230 V310 C156 310 200 350 256 350 C312 350 356 310 356 310 V230" stroke-width="22"/>
+    <path d="M416 200 V300" stroke-width="20"/>
+    <!-- Analytics / Score graph bar indicator -->
+    <circle cx="256" cy="390" r="14" fill="#34D399" stroke="#34D399" stroke-width="4"/>
+    <path d="M200 410 L256 390 L312 405" stroke-width="12" stroke="#A7F3D0"/>
+  </g>
+</svg>
